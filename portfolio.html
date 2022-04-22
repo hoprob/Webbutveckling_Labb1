@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Labb 1 | Portfolio</title>
+    <link rel="stylesheet" href="/Css/main.css">
+    <link rel="stylesheet" href="/Css/portfolio.css">
+</head>
+<body>
+    <div class="grid">
+        <header class="header">
+            <h1>Robin Svensson</h1>
+            <h3>Soon to be .NET developer</h3>            
+        </header>
+        <nav class="menu">
+            <ul>
+                <li><a href="index.html">Startsida</a></li>
+                <li><a href="cv.html">CV</a></li>
+                <li class="current"><a href="portfolio.html">Portfolio</a></li>
+                <li><a href="mal.html">Mål</a></li>
+                <li><a href="funfacts.html">Fun facts</a></li>
+            </ul>            
+        </nav>
+        <section class="portfolio">
+            <h2>Några av mina projekt:</h2>
+            <ul>
+                <li> <a href="#numGame" class="btn numGame">NumbersGame</a></li>
+                <div id="numGame" class="modal">
+                    <div class="modal-content">                   
+                        <h3>NumbersGame</h3>
+                        <p>Ett enkelt spel i console-format där det handlar om att gissa rätt nummer. Detta gjordes i vår första kurs på Campus!</p>
+                        <img src="Image/NumbersGame.png" alt="Picture of the NumbersGame in console"/>
+                        <br>
+                        <a href="https://github.com/hoprob/NumbersGame.git" target="_blank"><img src="Image/GitHub-Mark-32px.png" alt="Link to GitHub repo"/></a>
+                        <div class="modal-close">
+                            <a href="#" >&times;</a>
+                        </div>
+                    </div>
+                </div>
+                <li> <a href="#eBank" class="btn eBank">eBank</a></li>
+                <div id="eBank" class="modal">
+                    <div class="modal-content">                   
+                        <h3>eBank</h3>
+                        <p>Denna applikation gjordes som slutprojekt i kursen "Utveckling med C#" på Campus.</p>
+                        <p>Det är en bankapplikation i console-format!</p>
+                        <img src="Image/ebank_loggedOut.png" alt="Picture of the bank application when logged out"/>
+                        <img src="Image/ebank_loggedIn.png" alt="Picture of the bank application when logged in"/>
+                        <br>
+                        <a href="https://github.com/hoprob/eBank.git" target="_blank"><img src="Image/GitHub-Mark-32px.png" alt="Link to GitHub repo"/></a>
+                        <div class="modal-close">
+                            <a href="#" >&times;</a>
+                        </div>
+                    </div>
+                </div>
+                <li><a href="#snake" class="btn snake">Snake</a></li>
+                <div id="snake" class="modal">
+                    <div class="modal-content">                   
+                        <h3>Snake</h3>
+                        <p>Detta är ett klassiskt Snake-spel som jag gjort på min fritid. Spelet är byggt i Console-format och har varit en bra övning för mig i mina studier!</p>
+                        <img src="Image/snake.png" alt="Picture of the snkake console-game"/>
+                        <br>
+                        <a href="https://github.com/hoprob/Snake.git" target="_blank"><img src="Image/GitHub-Mark-32px.png" alt="Link to GitHub repo"/></a>
+                        <div class="modal-close">
+                            <a href="#" >&times;</a>
+                        </div>
+                    </div>
+                </div>
+                <li><a href="#rest-api" class="btn rest-api">REST-API</a></li>
+                <div id="rest-api" class="modal">
+                    <div class="modal-content">                   
+                        <h3>REST-API</h3>
+                        <p>Ett API som sköter requests till en databas för tidrapporter.<br> API:t är byggt med ASP.NET CORE WebbAPI och testat i verktygen Postman!</p>
+                        <img src="Image/API_get.png" alt="Picture of the api from Postman"/>
+                        <br>
+                        <a href="https://github.com/hoprob/AvanceradDOTNET_Projekt.git" target="_blank"><img src="Image/GitHub-Mark-32px.png" alt="Link to GitHub repo"/></a>
+                        <div class="modal-close">
+                            <a href="#" >&times;</a>
+                        </div>
+                    </div>
+                </div>
+            </ul>
+        </section>
+        <footer class="footer">
+            <p>Copyright Robin Svensson 2022</p>
+        </footer>
+    </div>
+</body>
+</html>
